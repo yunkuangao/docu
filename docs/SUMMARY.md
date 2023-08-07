@@ -5,50 +5,66 @@ sidebar_position: 2
 
 * [首页](./intro.md)
 
-## 前置内容
+## Koishi 插件
 
-* [前置内容](./First/Readme/README.md)
-  * [皮肤站帮助文档](./First/Readme/pi-fu-zhan-bang-zhu-wen-dang.md)
-  * [Java安装及使用](./First/Readme/java-an-zhuang-ji-shi-yong.md)
-* [关于赞助](./First/guan-yu-zan-zhu.md)
+* 人工智能
+  * [davinci-003](./KoishiPlugins/AI/davinci-003.md)
+  * [facercg](./KoishiPlugins/AI/facercg.md)
+  * [sd-taylor](./KoishiPlugins/AI/sd-taylor.md)
+  * [arcadia](./KoishiPlugins/AI/arcadia.md)
+  * [artwise](./KoishiPlugins/AI/arcadia.md)
+* 适配器
+  * [go-cqhttp-dev](./KoishiPlugins/Adapter/gocqhttp-dev.md)
+  * [qsign](./KoishiPlugins/Adapter/qsign.md)
+  * [autoxjs-sender](./KoishiPlugins/Adapter/autoxjs-sender.md)
+* 拓展功能
+  * [mqtt](./KoishiPlugins/Extension/mqtt.md)
+* 控制台
+  * [blockly-registry](./KoishiPlugins/Console/blockly-registry.md)
+* 管理工具
+  * [clock](./KoishiPlugins/Manager/clock.md)
+  * [loader](./KoishiPlugins/Manager/loader.md)
+  * [blacklist](./KoishiPlugins/Manager/blacklist.md)
+* 行为预设
+  * [specialtile](./KoishiPlugins/Behavior/specialtile.md)
+* 资讯服务
+  * [furbot](./KoishiPlugins/News/furbot.md)
+  * [fraud-db](./KoishiPlugins/News/fraud-db.md)
+* 实用工具
+  * [paddlespeech](./KoishiPlugins/Tool/paddlespeech.md)
+  * [whisper-asr](./KoishiPlugins/Tool/whisper-asr.md)
+  * [paddlespeech-finetune](./KoishiPlugins/Tool/paddlespeech-finetune.md)
+  * [baidu-tts](./KoishiPlugins/Tool/baidu-tts.md)
+  * [baidu-sst](./KoishiPlugins/Tool/baidu-sst.md)
+  * [ts-sst](./KoishiPlugins/Tool/tc-sst.md)
+  * [tencent-tts](./KoishiPlugins/Tool/tencent-tts.md)
+  * [@initencounter/vits](./KoishiPlugins/Tool/vits.md)
+  * [@initencounter/sst](./KoishiPlugins/Tool/sst.md)
+* 娱乐玩法
+  * [puzzle](./KoishiPlugins/Recreation/puzzle.md)
+  * [cube](./KoishiPlugins/Recreation/cube.md)
+  * [couplet](./KoishiPlugins/Recreation/couplet.md)
+* 游戏辅助
+  * [stnb](./KoishiPlugins/Games/stnb.md)
+  * [sream-trading](./KoishiPlugins/Games/steam-trading.md)
+  * [starrail-gachalog](./KoishiPlugins/Games/starrail-gachalog.md)
+  * [starrail-atlas](./KoishiPlugins/Games/starrail-atlas.md)
 
-## 服务器加入方法
+## Nonebot 插件
+* 娱乐玩法
+  * [puzzle](./NonebotPlugins/puzzle.md)
+  * [cube](./NonebotPlugins/cube.md)
 
-* [服务器进入办法](./serverDocs/enterTheServer/README.md)
-  * [基岩版加入服务器](./serverDocs/enterTheServer/ji-yan-ban-jia-ru-fu-wu-qi.md)
-  * [Java版加入服务器](./serverDocs/enterTheServer/java-ban-jia-ru-fu-wu-qi.md)
+## Docker 镜像
+* [sd-webui](./DockerImages/sd-webui.md)
+* [AudioCraft](./DockerImages/Audiocraft.md)
+* [Chat-RWKV-api](./DockerImages/ChatRWKV.md)
+* [PaddleSpeech](./DockerImages/paddlespeech.md)
+* [Text-gen-webui](./DockerImages/text-gen-webui.md)
+* [Openai-whisper](./DockerImages/openai-whisper-api.md)
+* [Koishi-wechaty-Bot](./DockerImages/wechaty.md)
 
-## 启动器配置
-
-* [各启动器配置](./LancherConfig/README.md)
-  * [HMCL启动器](./LancherConfig/hmcl-qi-dong-qi.md)
-  * [PCL启动器](./LancherConfig/pcl-qi-dong-qi.md)
-  * [mod安装](./Other/mod-install/hmcl-qi-dong-qi-mod-an-zhuang.md)
-    * [HMCL启动器mod安装](./Other/mod-install/hmcl-qi-dong-qi-mod-an-zhuang.md)
-  * [师叔的文档](https://docs.vlssu.cn/tutorials/configuring-client/minecraft-launcher)
-
-## 问答
-
-* [服务器问答](./Q%26A/fuwuqi-wen-da.md)
-* [进不去的原因](./Q%26A/jin-bu-qu-de-yuan-yin.md)
-
-## 其他使用说明
-
-* [服务器部分插件使用说明](./Other/pluginsDocs/README.md)
-  * [纯净生存基本指令](./Other/pluginsDocs/chun-jing-sheng-cun-ji-ben-zhi-ling.md)
-  * [创造世界领地指令](./Other/pluginsDocs/ling-di-cha-jian-bang-zhu-wen-dang.md)
-  * [co插件指令说明](./Other/pluginsDocs/co-cha-jian-zhi-ling-shuo-ming.md)
-  * [Allmusic使用说明](./Other/pluginsDocs/allmusic-shi-yong-shuo-ming.md)
-
-## 链接
-
-* [各个链接](https://womadao.top)
-  * [服务器官网](https://womadao.top)
-  * [沃玛人皮肤站](https://skin.warma.ren)
-  * [沃玛岛服务器论坛](https://bbs.womadao.top)
-
-## 公告
-
-* [服务器规则](./notice/fu-wu-qi-gui-ze.md)
-* [管理人员](./notice/op-ji-qi-guan-li.md)
-* [合照全景](./notice/he-zhao-quan-jing-1.md)
+## 其他
+* [UN_report_parse](./Other/UN-report-parser.md)
+* [gpt-auto-translator](./Other/gpt-auto-translate.md)
+* [chat-prompt](./Other/chat-prompts.md)
