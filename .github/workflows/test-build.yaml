@@ -1,0 +1,33 @@
+on:
+  - push
+  - pull_request
+  - workflow_dispatch
+
+jobs:
+  cache-and-install:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: [ 16.x, 18.x ]
+        os: [ ubuntu-latest, windows-latest, macos-latest ]
+        experimental: [ true ]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Run install
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install
+
+      - name: Build production bundle
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: build
